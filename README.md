@@ -3,7 +3,7 @@ ep_element
 An Etherpad Lite plugin. Adds the ability to set output tag and attributes.
 
 Use:
-On you element, (say a `span`), add the class `elem` to enable the plugin on the element. Then, to set the output element (optional, defaults to `span`), set `elem:elemname` (eg. `elem:a`). For each attribute, add a class in the format `attr-attrname:attrvalue`, eg. `attr-contentedtiable:true`, `attr-data-code:x%20y`. Encode any attr values with `encodeURIComponent`.
+On an element, (say a `span`), add the class `elem` to enable the plugin on the element. Then, to set the output element (optional, defaults to `span`), add the class `elem:elemname` (eg. `elem:a`). For each attribute, add a class in the format `attr-attrname:attrvalue`, eg. `attr-contentedtiable:true`, `attr-data-code:x%20y`. Encode any attr values with `encodeURIComponent`.
 
 Example:
 
