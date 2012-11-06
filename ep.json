@@ -1,0 +1,15 @@
+{
+  "parts": [
+    {
+      "name": "element",
+      "client_hooks": {
+        "collectContentPre": "ep_element/static/js/shared",
+        "acePostWriteDomLineHTML": "ep_element/static/js/index",
+        "aceAttribsToClasses": "ep_element/static/js/index"
+      },
+      "hooks": {
+        "collectContentPre": "ep_element/static/js/shared"
+      }
+    }
+  ]
+}
